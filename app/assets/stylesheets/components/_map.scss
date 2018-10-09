@@ -1,0 +1,13 @@
+.map {
+  display: flex;
+  margin: 0;
+  flex-grow: 1;
+  background: #F4F4F4;
+}
+
+.map-image {
+  margin: auto;
+  max-width: 40%;
+  height: auto;
+  max-height: 100vh;
+}

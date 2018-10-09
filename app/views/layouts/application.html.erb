@@ -9,7 +9,67 @@
     <%= stylesheet_link_tag 'application', media: 'all' %>
     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
   </head>
-  <body>
+
+  <body class="body">
+     <div class="navbar">
+      <ul>
+        <li class="region">
+          <a href="toscane.html">Toscane</a>
+          <ul class="villes">
+            <li><a href="florence.html">Firenze</a></li>
+            <li><a href="siena.html">Siena</a></li>
+          </ul>
+        </li>
+        <li class="region">
+          <a href="">Veneto</a>
+          <ul class="villes">
+            <li><a href="">Venise</a></li>
+          </ul>
+        </li>
+        <li class="region">
+          <a href="">Emilia Romagna</a>
+           <ul class="villes">
+            <li><a href="">Bologne</a></li>
+            <li><a href="">Siena</a></li>
+           </ul>
+         </li>
+        <li class="region">
+          <a href="">Lazio</a>
+           <ul class="villes">
+            <li><a href="">Rome</a></li>
+          </ul>
+        </li>
+        <li class="region">
+          <a href="">Lombardia</a>
+           <ul class="villes">
+            <li><a href="">Milan</a></li>
+            <li><a href="">Bergame</a></li>
+            <li><a href="">Mantoue</a></li>
+          </ul>
+        </li>
+        <li class="region">
+          <a href="">Lac italiens</a>
+           <ul class="villes">
+            <li><a href="">Lago de Como</a></li>
+            <li><a href="">Lago Magiore </a></li>
+          </ul>
+        </li>
+        <li class="region">
+          <a href="">Appuglia</a>
+           <ul class="villes">
+            <li><a href="">Polignano a Mare</a></li>
+            <li><a href="">Monopoli</a></li>
+            <li><a href="">Lecce</a></li>
+          </ul>
+        </li>
+        <li class="region">
+          <a href="">Piemonte</a>
+           <ul class="villes">
+            <li><a href="">Torino</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
     <%= yield %>
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>

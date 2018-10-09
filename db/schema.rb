@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181008150942) do
+ActiveRecord::Schema.define(version: 20181009083704) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 20181008150942) do
     t.string "heraldic"
     t.string "geocoding"
     t.string "picture"
-    t.string "province_id"
+    t.integer "province_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
